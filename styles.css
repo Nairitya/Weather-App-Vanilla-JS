@@ -59,8 +59,16 @@ nav {
   padding: 1rem 1.5rem;
   background-color: var(--primary-blue);
   color: var(--white);
-  border: var(--primary-blue) solid;
+  border: none;
   border-radius: 8px;
+}
+#main-search-btn:hover {
+  transform: scale(1.01);
+  box-shadow: 2px 2px 2px var(--light-gray);
+}
+#main-search-btn:active {
+  transform: scale(0.9);
+  box-shadow: 2px 2px 8px #0a67c4 inset;
 }
 #weather-container {
   text-align: center;
